@@ -21,7 +21,7 @@ public class Segitiga extends BangunDatar{
     public void hitungKeliling() {
         keliling = sisiA + sisiB + sisiC;
 
-
+    }
 public class SegitigaSembarang extends Segitiga {
     public SegitigaSembarang(double alas, double tinggi, double sisiA, double sisiB, double sisiC) {
         super(alas, tinggi, sisiA, sisiB, sisiC);
@@ -52,4 +52,3 @@ public class SegitigaSamaSisi extends Segitiga {
 
 
     }
-}

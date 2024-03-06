@@ -1,6 +1,5 @@
 public class Lingkaran extends BangunDatar {
     public Lingkaran(double radius){
-        super.setNama("Lingkaran");
         this.hitungLuas(radius);
         this.hitungKeliling(radius);
     }
